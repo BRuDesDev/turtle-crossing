@@ -1,6 +1,7 @@
 from turtle import Turtle
 import random
 
+# Constants
 COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
@@ -13,6 +14,11 @@ class CarManager:
         self.car_speed = STARTING_MOVE_DISTANCE
 
     def create_car(self):
+        """
+        Picks a random number between 1-6, and if the number is 1,
+        we create a new car - random color - and send it across the screen at a
+        random y value. Every car is also saved - appended to - all_car list.
+        """
         random_chance = random.randint(1, 6)
         if random_chance == 1:
             new_car = Turtle("square")
@@ -24,8 +30,16 @@ class CarManager:
             self.all_cars.append(new_car)
 
     def move_cars(self):
+        """
+        Iterates through each car in all_car list, moving it across screen at
+        correct speed.
+        """
         for car in self.all_cars:
             car.backward(self.car_speed)
 
     def level_up(self):
+        """
+        Is triggered by the player getting his turtle across the road.
+        Returns player to start, and speeds up the cars.
+        """
         self.car_speed += MOVE_INCREMENT
