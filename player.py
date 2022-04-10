@@ -18,7 +18,31 @@ class Player(Turtle):
         """
         Move player's turtle up.
         """
-        self.forward(MOVE_DISTANCE)
+        if self.heading() == 90:
+            self.forward(MOVE_DISTANCE)
+        else:
+            self.setheading(90)
+            self.forward(MOVE_DISTANCE)
+
+    def go_left(self):
+        """
+        Move player's turtle left.
+        """
+        if self.heading() == 180:
+            self.forward(MOVE_DISTANCE)
+        else:
+            self.setheading(180)
+            self.forward(MOVE_DISTANCE)
+
+    def go_right(self):
+        """
+        Move player's turtle right.
+        """
+        if self.heading() == 0:
+            self.forward(MOVE_DISTANCE)
+        else:
+            self.setheading(0)
+            self.forward(MOVE_DISTANCE)
 
     def go_to_start(self):
         """

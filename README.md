@@ -1,8 +1,15 @@
 # turtle-crossing
 A spin-off of the _classic arcade game_, Frogger. Done using Turtle Graphics.
 
+USE the up/left/right arrow keys (on keyboard) to maneuver your turtle up through traffic. If you reach the other side
+alive, you are transported back to the starting position, and level 2 begins. Every round gets faster and faster. 
+See how many levels you can own.
+
+
+__________________________________________________________________________________________________________
 
 **_★ Must have Python 3.8 or higher to run game_**<br>
+
 	<t>To check if Python 3 is installed **[in linux]**:<br>
 `python3 --version`<br>
 **_👍 If Python 3.8 or higher, move to installing and running game._** If Python is not found or not up to date, you can install
@@ -20,16 +27,16 @@ ________________________________________________________________________________
 in Linux (debian, ubuntu, kali, etc.) terminal type these commands:<br><br>
 <code>	
 sudo mkdir ~/git      
-</code><br>
+</code>
 <code>
 sudo cd ~/git       
-</code><br>
+</code>
 <code>
 sudo git clone https://github.com/BRuDesDev/turtle-crossing.git      
-</code><br>
+</code>
 <code>
 cd turtle-crossing      
-</code><br>
+</code>
 <code>
 python3 main.py				
-</code><br>
+</code>
