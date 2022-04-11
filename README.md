@@ -1,16 +1,15 @@
-# turtle-crossing
-A spin-off of the _classic arcade game_, Frogger. Done using Turtle Graphics.
+# Turtle Crossing 🚗 🐢🚗
+A spin-off of the _classic arcade game_, Frogger. But instead of a Frog, you're a Turtle! (ironically) Built using Turtle Graphics in Python.
 
-USE the up/left/right arrow keys (on keyboard) to maneuver your turtle up through traffic. If you reach the other side
-alive, you are transported back to the starting position, and level 2 begins. Every round gets faster and faster. 
-See how many levels you can own.
-
+USE the **_up/left/right arrow keys_** (on keyboard) to maneuver your turtle up through traffic. If you reach the other side
+alive, you are transported back to the starting position and level 2 begins. Every new level, the cars speed up. 
+See how many levels you can own!<br><br>
 
 __________________________________________________________________________________________________________
 
 **_★ Must have Python 3.8 or higher to run game_**<br>
 
-	<t>To check if Python 3 is installed **[in linux]**:<br>
+<t>To check if Python 3 is installed **[in linux]**:<br>
 `python3 --version`<br>
 **_👍 If Python 3.8 or higher, move to installing and running game._** If Python is not found or not up to date, you can install
 2 ways:<br>
@@ -27,16 +26,16 @@ ________________________________________________________________________________
 in Linux (debian, ubuntu, kali, etc.) terminal type these commands:<br><br>
 <code>	
 sudo mkdir ~/git      
-</code>
+</code><br>
 <code>
 sudo cd ~/git       
-</code>
+</code><br>
 <code>
 sudo git clone https://github.com/BRuDesDev/turtle-crossing.git      
-</code>
+</code><br>
 <code>
 cd turtle-crossing      
-</code>
+</code><br>
 <code>
 python3 main.py				
 </code>
