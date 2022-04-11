@@ -23,7 +23,7 @@ to open and run any Python file.<br>
 __________________________________________________________________________________________________________
 
 **LINUX INSTRUCTIONS** _to Installing and running the game_:<br><br>
-in Linux (debian, ubuntu, kali, etc.) terminal type these commands:<br><br>
+in Linux (debian, ubuntu, kali, etc.) terminal type these commands:<br>
 <code>	
 sudo mkdir ~/git      
 </code><br>
