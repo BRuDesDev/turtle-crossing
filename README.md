@@ -5,6 +5,9 @@ USE the **_up/left/right arrow keys_** (on keyboard) to maneuver your turtle up 
 alive, you are transported back to the starting position and level 2 begins. Every new level, the cars speed up. 
 See how many levels you can own!<br><br>
 
+![image](https://user-images.githubusercontent.com/103232802/162863625-74525033-1fcf-40c1-a5ad-38d570af3260.png)
+
+
 __________________________________________________________________________________________________________
 
 **_★ Must have Python 3.8 or higher to run game_**<br>
